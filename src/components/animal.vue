@@ -137,7 +137,7 @@
                     // 将该数据信息传递给后端
                     that.$axios({
                         method: 'post',
-                        url: "http://127.0.0.1:5000/test",
+                        url: "http://49.232.199.15:5000/test",
                         data: {
                             msg: that.features
                         }
@@ -187,7 +187,7 @@
                 } else {
                     that.$axios({
                         method: 'post',
-                        url: "http://127.0.0.1:5000/add",
+                        url: "http://49.232.199.15:5000/add",
                         data: {
                             newrules: strRules,
                             newresult: that.form.result,
@@ -209,7 +209,7 @@
                 }
             },
             open(){
-                this.$alert('更多详情请进入我的个人博客进行查看！地址：http://liufanghan.coding.me/', '声明', {
+                this.$alert('更多详情请进入我的个人博客进行查看！地址：http://wulei.co/', '声明', {
                     confirmButtonText: '确定',
                 });
             }

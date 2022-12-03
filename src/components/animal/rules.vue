@@ -29,7 +29,7 @@
             // 将该数据信息传递给后端
             that.$axios({
                 method: 'post',
-                url: "http://127.0.0.1:5000/getrules",
+                url: "http://49.232.199.15:5000/getrules",
             }).then(function (response) {
                 console.log(response.data)
                 let data = response.data
